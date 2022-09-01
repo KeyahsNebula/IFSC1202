@@ -1,3 +1,9 @@
 x = input( " Enter Number: ")
-print(" The next number for the number " + x)
+y = int(x)
+z = 1
+a = int(z)
+print(" The next numebr for the number " + x)
+b = y + a
+print( " is "+ b)
+
 
