@@ -5,5 +5,8 @@ y = int(b)
 c = input("Enter Seconds: ")
 x = int(c)
 w = z / 1.61
-v = 
-print(w)
+v = y + x
+u = 3600/v
+t = u/w
+print(t)
+
