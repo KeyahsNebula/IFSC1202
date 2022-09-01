@@ -1,6 +1,10 @@
-Students = input(" Enter Number of Students: ")
-Apples = input( " Enter Number of Apples: ")
-print(" Number of Students: " + Students)
-print( " Number of Apples: " + Apples)
-
+a = input(" Enter Number of Students: ")
+z = int(a)
+b = input( " Enter Number of Apples: ")
+y = int(b)
+x = y // z
+print(x)
+w = z * x
+v = y - w 
+print(v)
 
