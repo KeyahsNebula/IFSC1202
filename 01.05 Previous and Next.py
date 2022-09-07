@@ -1,9 +1,9 @@
 x = input( " Enter Number: ")
 y = int(x)
-z = 1
-a = int(z)
-print(" The next numebr for the number " + x)
-b = y + a
-print( " is "+ b)
+next = y + 1
+previous = y - 1
+print(" The next number for the number " + str(x) + " is  "+ str(next) + ".")
+print(" The previous number for the number " + str(x) + " is  "+ str(previous) + ".")
+
 
 

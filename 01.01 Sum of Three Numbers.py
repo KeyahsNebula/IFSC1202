@@ -1,4 +1,4 @@
-a = 9
-b = 5
-c = 7
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
+c = int(input("Enter Third Number: "))
 print (a+b+c)
