@@ -1,4 +1,3 @@
-a = input("Enter a Number: ")
-b = int(a)
-c = b % 10
-print("Last Digit: " + c)
+a = int(input("Enter a Number: "))
+b = str(a % 10)
+print("Last Digit: " + b)
