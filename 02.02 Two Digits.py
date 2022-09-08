@@ -1,5 +1,5 @@
-num = input("Enter a Number: ")
-a = int(num)
+a = int(input('Enter a Number: '))
 b = a % 10
-print("Ones Digit" + b)
-
+c = a // 10
+print('Ones Digit: {}'.format(b))
+print('Tens Digit: {}'.format(c))
