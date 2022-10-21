@@ -1,7 +1,7 @@
 a = int(input('Enter Point A: '))
 b = int(input('Enter Point B: '))
 c = int(input('Enter Point C: '))
-if b-a < c-a:
-    print(b-a)
+if a-b < a-c:
+    print(a-b)
 else:
-        print(c-a)
+    print(a-c)
